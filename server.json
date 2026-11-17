@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Ichiiku/rulepass",
+  "title": "Rulepass e-invoicing",
+  "description": "Create and check Peppol BIS 3.0 e-invoices; look up EU VAT numbers (VIES) and Peppol IDs.",
+  "version": "1.1.0",
+  "websiteUrl": "https://rulepass.app",
+  "repository": {
+    "url": "https://github.com/Ichiiku/rulepass",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rulepass.app/api/mcp"
+    }
+  ]
+}

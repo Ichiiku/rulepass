@@ -1,0 +1,68 @@
+{
+  "docType": "invoice",
+  "format": "peppol",
+  "number": "INV-2026-001",
+  "precedingInvoice": "",
+  "precedingInvoiceDate": "",
+  "issueDate": "2026-11-12",
+  "dueDate": "2026-12-12",
+  "deliveryDate": "",
+  "currency": "EUR",
+  "buyerReference": "PO-REF-77",
+  "orderReference": "",
+  "note": "",
+  "seller": {
+    "name": "Example Consulting BV",
+    "vatId": "BE0123456749",
+    "companyId": "0123456749",
+    "endpointScheme": "0208",
+    "endpointId": "0123456749",
+    "street": "Rue de la Loi 1",
+    "city": "Brussels",
+    "postalCode": "1000",
+    "countryCode": "BE",
+    "email": "billing@example.be",
+    "contactName": "",
+    "phone": ""
+  },
+  "buyer": {
+    "name": "Customer NV",
+    "vatId": "BE0987654394",
+    "companyId": "",
+    "endpointScheme": "0208",
+    "endpointId": "0987654394",
+    "street": "Meir 10",
+    "city": "Antwerp",
+    "postalCode": "2000",
+    "countryCode": "BE",
+    "email": "",
+    "contactName": "",
+    "phone": ""
+  },
+  "lines": [
+    {
+      "name": "Consulting",
+      "quantity": 12.5,
+      "unitCode": "HUR",
+      "unitPrice": 85,
+      "vatCategory": "S",
+      "vatRate": 21,
+      "discountPercent": 0
+    },
+    {
+      "name": "Travel costs",
+      "quantity": 1,
+      "unitCode": "LS",
+      "unitPrice": 33.33,
+      "vatCategory": "S",
+      "vatRate": 6,
+      "discountPercent": 0
+    }
+  ],
+  "iban": "BE68539007547034",
+  "bic": "GKCCBEBB",
+  "paymentReference": "+++123/4567/89002+++",
+  "paymentTerms": "Net 30 days",
+  "exemptionReason": "",
+  "adjustments": []
+}
